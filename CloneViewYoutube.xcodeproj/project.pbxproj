@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F230D41E3515F7002E603A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F230D31E3515F7002E603A /* main.m */; };
+		57F230D71E3515F7002E603A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F230D61E3515F7002E603A /* AppDelegate.m */; };
+		57F230DA1E3515F7002E603A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F230D91E3515F7002E603A /* ViewController.m */; };
+		57F230DD1E3515F7002E603A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F230DB1E3515F7002E603A /* Main.storyboard */; };
+		57F230DF1E3515F7002E603A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F230DE1E3515F7002E603A /* Assets.xcassets */; };
+		57F230E21E3515F7002E603A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F230E01E3515F7002E603A /* LaunchScreen.storyboard */; };
+		57F230ED1E3515F7002E603A /* EJE_MActivityIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F230EC1E3515F7002E603A /* EJE_MActivityIndicatorTests.m */; };
+		57F230F81E3515F7002E603A /* EJE_MActivityIndicatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F230F71E3515F7002E603A /* EJE_MActivityIndicatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F230E91E3515F7002E603A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F230C71E3515F7002E603A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F230CE1E3515F7002E603A;
+			remoteInfo = EJE_MActivityIndicator;
+		};
+		57F230F41E3515F7002E603A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F230C71E3515F7002E603A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F230CE1E3515F7002E603A;
+			remoteInfo = EJE_MActivityIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57F230CF1E3515F7002E603A /* CloneViewYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneViewYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F230D31E3515F7002E603A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57F230D51E3515F7002E603A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57F230D61E3515F7002E603A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57F230D81E3515F7002E603A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57F230D91E3515F7002E603A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57F230DC1E3515F7002E603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F230DE1E3515F7002E603A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F230E11E3515F7002E603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57F230E31E3515F7002E603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F230E81E3515F7002E603A /* CloneViewYoutubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneViewYoutubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F230EC1E3515F7002E603A /* EJE_MActivityIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJE_MActivityIndicatorTests.m; sourceTree = "<group>"; };
+		57F230EE1E3515F7002E603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F230F31E3515F7002E603A /* CloneViewYoutubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneViewYoutubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F230F71E3515F7002E603A /* EJE_MActivityIndicatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJE_MActivityIndicatorUITests.m; sourceTree = "<group>"; };
+		57F230F91E3515F7002E603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F230CC1E3515F7002E603A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F230E51E3515F7002E603A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F230F01E3515F7002E603A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F230C61E3515F7002E603A = {
+			isa = PBXGroup;
+			children = (
+				57F230D11E3515F7002E603A /* EJE_MActivityIndicator */,
+				57F230EB1E3515F7002E603A /* EJE_MActivityIndicatorTests */,
+				57F230F61E3515F7002E603A /* EJE_MActivityIndicatorUITests */,
+				57F230D01E3515F7002E603A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57F230D01E3515F7002E603A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F230CF1E3515F7002E603A /* CloneViewYoutube.app */,
+				57F230E81E3515F7002E603A /* CloneViewYoutubeTests.xctest */,
+				57F230F31E3515F7002E603A /* CloneViewYoutubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F230D11E3515F7002E603A /* EJE_MActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				57F230D51E3515F7002E603A /* AppDelegate.h */,
+				57F230D61E3515F7002E603A /* AppDelegate.m */,
+				57F230D81E3515F7002E603A /* ViewController.h */,
+				57F230D91E3515F7002E603A /* ViewController.m */,
+				57F230DB1E3515F7002E603A /* Main.storyboard */,
+				57F230DE1E3515F7002E603A /* Assets.xcassets */,
+				57F230E01E3515F7002E603A /* LaunchScreen.storyboard */,
+				57F230E31E3515F7002E603A /* Info.plist */,
+				57F230D21E3515F7002E603A /* Supporting Files */,
+			);
+			path = EJE_MActivityIndicator;
+			sourceTree = "<group>";
+		};
+		57F230D21E3515F7002E603A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F230D31E3515F7002E603A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F230EB1E3515F7002E603A /* EJE_MActivityIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F230EC1E3515F7002E603A /* EJE_MActivityIndicatorTests.m */,
+				57F230EE1E3515F7002E603A /* Info.plist */,
+			);
+			path = EJE_MActivityIndicatorTests;
+			sourceTree = "<group>";
+		};
+		57F230F61E3515F7002E603A /* EJE_MActivityIndicatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57F230F71E3515F7002E603A /* EJE_MActivityIndicatorUITests.m */,
+				57F230F91E3515F7002E603A /* Info.plist */,
+			);
+			path = EJE_MActivityIndicatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F230CE1E3515F7002E603A /* CloneViewYoutube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F230FC1E3515F7002E603A /* Build configuration list for PBXNativeTarget "CloneViewYoutube" */;
+			buildPhases = (
+				57F230CB1E3515F7002E603A /* Sources */,
+				57F230CC1E3515F7002E603A /* Frameworks */,
+				57F230CD1E3515F7002E603A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloneViewYoutube;
+			productName = EJE_MActivityIndicator;
+			productReference = 57F230CF1E3515F7002E603A /* CloneViewYoutube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F230E71E3515F7002E603A /* CloneViewYoutubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F230FF1E3515F7002E603A /* Build configuration list for PBXNativeTarget "CloneViewYoutubeTests" */;
+			buildPhases = (
+				57F230E41E3515F7002E603A /* Sources */,
+				57F230E51E3515F7002E603A /* Frameworks */,
+				57F230E61E3515F7002E603A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F230EA1E3515F7002E603A /* PBXTargetDependency */,
+			);
+			name = CloneViewYoutubeTests;
+			productName = EJE_MActivityIndicatorTests;
+			productReference = 57F230E81E3515F7002E603A /* CloneViewYoutubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57F230F21E3515F7002E603A /* CloneViewYoutubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F231021E3515F7002E603A /* Build configuration list for PBXNativeTarget "CloneViewYoutubeUITests" */;
+			buildPhases = (
+				57F230EF1E3515F7002E603A /* Sources */,
+				57F230F01E3515F7002E603A /* Frameworks */,
+				57F230F11E3515F7002E603A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F230F51E3515F7002E603A /* PBXTargetDependency */,
+			);
+			name = CloneViewYoutubeUITests;
+			productName = EJE_MActivityIndicatorUITests;
+			productReference = 57F230F31E3515F7002E603A /* CloneViewYoutubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F230C71E3515F7002E603A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jose David Bustos H";
+				TargetAttributes = {
+					57F230CE1E3515F7002E603A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = SKHVA5VZ52;
+					};
+					57F230E71E3515F7002E603A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 57F230CE1E3515F7002E603A;
+					};
+					57F230F21E3515F7002E603A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 57F230CE1E3515F7002E603A;
+					};
+				};
+			};
+			buildConfigurationList = 57F230CA1E3515F7002E603A /* Build configuration list for PBXProject "CloneViewYoutube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F230C61E3515F7002E603A;
+			productRefGroup = 57F230D01E3515F7002E603A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F230CE1E3515F7002E603A /* CloneViewYoutube */,
+				57F230E71E3515F7002E603A /* CloneViewYoutubeTests */,
+				57F230F21E3515F7002E603A /* CloneViewYoutubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F230CD1E3515F7002E603A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F230E21E3515F7002E603A /* LaunchScreen.storyboard in Resources */,
+				57F230DF1E3515F7002E603A /* Assets.xcassets in Resources */,
+				57F230DD1E3515F7002E603A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F230E61E3515F7002E603A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F230F11E3515F7002E603A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F230CB1E3515F7002E603A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F230DA1E3515F7002E603A /* ViewController.m in Sources */,
+				57F230D71E3515F7002E603A /* AppDelegate.m in Sources */,
+				57F230D41E3515F7002E603A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F230E41E3515F7002E603A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F230ED1E3515F7002E603A /* EJE_MActivityIndicatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F230EF1E3515F7002E603A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F230F81E3515F7002E603A /* EJE_MActivityIndicatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F230EA1E3515F7002E603A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F230CE1E3515F7002E603A /* CloneViewYoutube */;
+			targetProxy = 57F230E91E3515F7002E603A /* PBXContainerItemProxy */;
+		};
+		57F230F51E3515F7002E603A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F230CE1E3515F7002E603A /* CloneViewYoutube */;
+			targetProxy = 57F230F41E3515F7002E603A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57F230DB1E3515F7002E603A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F230DC1E3515F7002E603A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57F230E01E3515F7002E603A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F230E11E3515F7002E603A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F230FA1E3515F7002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57F230FB1E3515F7002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F230FD1E3515F7002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SKHVA5VZ52;
+				INFOPLIST_FILE = EJE_MActivityIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.CloneViewYoutube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57F230FE1E3515F7002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SKHVA5VZ52;
+				INFOPLIST_FILE = EJE_MActivityIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.CloneViewYoutube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57F231001E3515F7002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EJE_MActivityIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.EJE-MActivityIndicatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloneViewYoutube.app/CloneViewYoutube";
+			};
+			name = Debug;
+		};
+		57F231011E3515F7002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EJE_MActivityIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.EJE-MActivityIndicatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloneViewYoutube.app/CloneViewYoutube";
+			};
+			name = Release;
+		};
+		57F231031E3515F7002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EJE_MActivityIndicatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.EJE-MActivityIndicatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EJE_MActivityIndicator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		57F231041E3515F7002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EJE_MActivityIndicatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.EJE-MActivityIndicatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EJE_MActivityIndicator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F230CA1E3515F7002E603A /* Build configuration list for PBXProject "CloneViewYoutube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F230FA1E3515F7002E603A /* Debug */,
+				57F230FB1E3515F7002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F230FC1E3515F7002E603A /* Build configuration list for PBXNativeTarget "CloneViewYoutube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F230FD1E3515F7002E603A /* Debug */,
+				57F230FE1E3515F7002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F230FF1E3515F7002E603A /* Build configuration list for PBXNativeTarget "CloneViewYoutubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F231001E3515F7002E603A /* Debug */,
+				57F231011E3515F7002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F231021E3515F7002E603A /* Build configuration list for PBXNativeTarget "CloneViewYoutubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F231031E3515F7002E603A /* Debug */,
+				57F231041E3515F7002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F230C71E3515F7002E603A /* Project object */;
+}
